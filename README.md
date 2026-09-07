@@ -2,6 +2,9 @@
 [![Build Status](https://travis-ci.org/scm4j/scm4j-vcs-svn.svg?branch=develop)](https://travis-ci.org/scm4j/scm4j-vcs-svn)
 [![Coverage Status](https://coveralls.io/repos/github/scm4j/scm4j-vcs-svn/badge.svg?branch=develop)](https://coveralls.io/github/scm4j/scm4j-vcs-svn?branch=develop)
 
+> [!IMPORTANT]
+> This repository is no longer maintained as a standalone project. Development has moved to the [untillpro/scm4j monorepo](https://github.com/untillpro/scm4j), where this project is located in the `scm4j-vcs-svn` subdirectory. Please submit new issues and pull requests in the monorepo. This repository is retained for historical reference.
+
 # Overview
 scm4j-vcs-svn is lightweight library for execute basic SVN VCS operations (merge, branch create etc). It uses [scm4j-vcs-api](https://github.com/scm4j/scm4j-vcs-api) exposing IVCS implementation for SVN repositories and [SVNKit](https://svnkit.com/) as framework to work with SVN repositories.
 Features:
